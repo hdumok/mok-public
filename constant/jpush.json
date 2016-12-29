@@ -1,0 +1,18 @@
+{
+  "JPUSH_CONFIGS": {
+    "mok-app": {
+      "appKey": "",
+      "masterSecret": "",
+      "retryTimes": 2
+    }
+  },
+  "JPUSH_TAGS": {
+  },
+  "PUSH_TYPE": {
+    "APP": "app",
+    "GROUP": "tag",
+    "SINGLE": "single",
+    "MULTI": "multiple"
+  },
+  "DEFAULT_EXPIRE" : 86400
+}

@@ -1,0 +1,18 @@
+stages:
+  - deploy
+
+before_script:
+  - yarn config set registry http://registry.npm.taobao.org/
+  - yarn
+
+deploy_production:
+  stage: deploy
+  tags:
+    - mok-public
+  only:
+    - master
+  script:
+    - mkdir -p ~/mok-public
+    - cp -alf ./ ~/mok-public
+    - cd ~/mok-public
+    - pm2 startOrReload pm2.json --only mok-public

@@ -1,0 +1,9 @@
+{
+    "QINIU_CONFIGS": {
+        "ACCESS_KEY": "",
+        "SECRET_KEY": "",
+        "BUCKET": {
+            "mok": ""
+        }
+    }
+}

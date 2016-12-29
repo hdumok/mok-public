@@ -1,0 +1,17 @@
+{
+  "CHANNEL_PUSH": "mok:channel:push",
+  "CHANNEL_LOG": "mok:channel:log",
+  "SUBSCRIBE": {
+    "interval": 50,
+    "maxInterval": 500,
+    "maxLength":20,
+    "retry": 2
+  },
+  "IGNORE":[
+    "DeprecationWarning",
+    "cannot find user by this audience",
+    "duplicate_unique_property_exists",
+    "Basic authentication failed",
+    "authen failed"
+  ]
+}
