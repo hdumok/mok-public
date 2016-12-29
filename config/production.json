@@ -1,0 +1,39 @@
+{
+    "port": 5000,
+    "redis": {
+        "host": "******",
+        "port": 6379,
+        "password": "******"
+    },
+
+    "mysql": {
+        "client": "mysql",
+        "connection": {
+            "host": "******",
+            "port": 3306,
+            "user": "***",
+            "password": "***",
+            "database": "***",
+            "charset": "UTF8_GENERAL_CI",
+            "connectTimeout": 15000,
+            "stringifyObjects": false,
+            "multipleStatements": true,
+            "supportBigNumbers": true,
+            "connectionLimit": 1
+        },
+        "debug": true
+    },
+    "email": {
+        "sender": {
+            "service": "QQ",
+            "auth": {
+                "user": "******@qq.com",
+                "pass": "******"
+            }
+        },
+        "receiver": [
+            "*****"
+        ]
+    },
+    "appServer": ["*"]
+}
